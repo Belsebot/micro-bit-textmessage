@@ -1,2 +1,2 @@
 # micro-bit-textmessage
-micro:bit text message 
+Demonstration how to send text message to another micro:bit using micro:bit radio
