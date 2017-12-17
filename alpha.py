@@ -9,9 +9,9 @@ radio.on()
 while True:         #main loop
     acce_x= accelerometer.get_x()       #get accelerometer x value
     if acce_x > value:          
-        x=x+1                           #adding variable value by 1 if board is turned with its x axis
+        x=x+1                           #scrolling letters to a -> z if board is turned with its x axis
     if acce_x < -value:
-        x=x-1                           #removing variable value by 1 if board is turned opposite direction
+        x=x-1                           #scrolling letters to z -> a  if board is turned opposite direction
 
     if x>25:                            #if value is going over the array then start it from begining
         x=0
